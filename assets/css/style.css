@@ -1,0 +1,257 @@
+/* HEADER & FOOTER / NAV BARS */
+header {
+    background-color: #171e1f;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0%;
+  
+
+    }
+    header h1 {
+        font-weight: bold;
+        font-size: 36px;
+         ;
+    border-style:solid;
+    border-color: #79b3d4;
+    border-width: 10px;
+    text-shadow:none;
+    background: #79b3d4;
+    color: #171e1f;
+  
+    }
+    header h1 a {
+        background: #79b3d4;
+        color: #171e1f;
+        padding-left: 50px;
+    }
+    header a {
+text-decoration: none;
+color: #79b3d4
+    }
+    header nav {
+       margin: 7px 0;
+    }
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+      }
+      header nav ul li a {
+        padding: 10px 15px;
+        font-weight: lighter;
+        font-size: 1.75vw;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+      header nav ul li a:hover {
+        background: #494949;
+        color: #79b3d4;
+        border-radius: 15px;
+        text-shadow: none;
+      }
+      .ab-me {
+        border-bottom:.1px solid #79b3d4; width:1px; padding-bottom: 5px;
+      }
+      .wk {
+        border-bottom:.1px solid #1bc8fd; width:1px; padding-bottom: 5px;
+      }
+.ctct-me {
+    border-bottom:.1px solid #2575ee; width:1px; padding-bottom: 5px;
+}
+.resm {
+    border-bottom:.1px solid #1900ff; width:1px; padding-bottom: 5px;
+}
+.contacts {
+    font-size: 55px;
+    color: #024e76;
+    border-right: 6px solid #024e76;
+    height: 200px;
+    position: absolute;
+    left: 11.15%;
+padding-right: 2%;
+padding-top: 60%;
+  }
+footer {
+    
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  footer h1 {
+    color: #024e76;
+    font-size: 55px;
+    margin: 0;
+  }
+  footer nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: inline-flex;
+    
+        }
+       footer nav ul li a {
+            padding: 10px 155px;
+            font-weight: lighter;
+            font-size: 1.75vw;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            color:#024e76;
+          }
+          .phone-number {
+            padding: 10px 155px;
+            font-weight: lighter;
+            font-size: 1.75vw;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          }
+          .contacts-links {
+            position: absolute;
+            left: 450px;
+            width: 35%;
+            text-align: right;
+            margin: 6.5%;
+            color: #024e76;
+            padding-top: 54%;
+            }
+            /* footer li {
+                display: inline;
+            } */
+          /* .contacts {
+            font-size: 55px;
+            color: #024e76;
+            border-right: 6px solid #024e76;
+            height: 200px;
+            position: absolute;
+            left: 21%;
+        padding-right: 2%;
+        margin-top: 300px;
+          } */
+    /* COOL SUBTITLE SECTION     */
+
+    .portfolio {
+        background-image: url(../images/portfolio-head.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: right;
+        background-position: 80%;
+        padding-top: 175px;
+        }
+        .subtitle h2 {
+            font-size: 39px;
+            font-weight: bolder;
+            border-style:solid;
+    border-color: #79b3d4;
+    border-width: 0px;
+    /* padding: 10px 15px 2px 50; */
+    text-shadow:none;
+    background: #79b3d4;
+    color: #024e76;
+    padding: 10px 10px 10px 10px;
+    margin-right: 120px;
+        }
+        .bio-head {
+            font-size: 55px;
+            color: #024e76;
+            border-right: 6px solid #024e76;
+            height: 200px;
+            position: absolute;
+            left: 10%;
+        padding-right: 2%;
+        }
+        .bio-content {
+            position: absolute;
+            left: 490px;
+            width: 35%;
+            text-align: right;
+            margin: 3.5%;
+            color: #024e76;
+             }
+             .work-title {
+                font-size: 55px;
+                color: #024e76;
+                border-right: 6px solid #024e76;
+                height: 400px;
+                position: absolute;
+                left: 14.04%;
+            padding-right: 2%;
+            padding-top: 10%
+            ;
+                /* font-size: 55px;
+                color: #024e76;
+                border-right: 6px solid #024e76;
+                height: 200px;
+                position: absolute;
+                left: 10%;
+            padding-right: 2%;
+            margin-top: 300px; */
+            
+             }
+             .first-project img {
+                 width: 1200px;
+                 height: 1200;
+                 padding-top: 10%;
+                 padding-left: 200px;
+                 }
+                 .first-project {
+                    position: absolute;
+            left: 490px;
+            width: 55%;
+            text-align: right;
+            margin: 3.5%;
+            color: #024e76;
+             } 
+             .projects {
+              width: 100%;
+              margin: 0 auto;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+             }
+             .project {
+              margin: 20px;
+              flex: 1;
+              background: #79b3d4;
+              color: #024e76;
+              margin-top: 30%;
+             }
+             .project-details {
+               width: 100%;
+               padding: 15px;
+               margin-bottom: 15px;
+             }
+             .project-details img {
+               width: 80%;
+             }
+                 
+                 
+             /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+             @media screen and (max-width: 980px) {
+                header {
+                  padding-bottom: 0;
+                  justify-content: center;
+                  position: relative;
+                }
+                header h1 {
+                    width: 100%;
+                    text-align: center;
+                  }
+                  header nav ul {
+                    margin-top: 20px;
+                    width: 100%;
+                    justify-content: center;
+                  }
+                  header nav ul li a {
+                    font-size: 20px;
+                  }
+                  footer h2, footer div {
+                    text-align: center;
+                    width: 100%;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                  }
+                  .projects {
+                    flex: 0 70%;
+                  }
+            }
